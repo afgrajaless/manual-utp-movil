@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inventarios · Manual UTP Móvil v02</title>
+<link rel="stylesheet" href="manual.css">
+</head>
+<body>
+<div class="bar"><a href="index.html">‹ Índice</a><span>Manual UTP Móvil v02</span></div>
+<main><h1 class="mod">Inventarios</h1><p class="desc">Consulta y reporte del estado de los activos.</p>
+<section class="block"><p class="lead">Gestiona y reporta el estado de los activos institucionales asignados a tu dependencia: tipo, fecha de entrega, ubicación y estado actual de cada equipo.</p><h4>El módulo de Inventarios cuenta con:</h4><ul class="bul"><li>Lista de equipos con código, tipo y ubicación</li><li>Filtros por dependencia, fecha y estado</li><li>Ingresar observación con ubicación y tipo de novedad</li><li>Aprobar o rechazar inventarios pendientes</li><li>Aviso de los días restantes para la revisión</li></ul><p class="note">Solo podrás ver y hacer uso del módulo INVENTARIOS cuando te loguees en la aplicación</p></section><article class="step" id="inv-d01-lista">
+  <h3>Lista de inventario<small>1 de 6</small></h3>
+  <p class="intro">Aquí ves los equipos asignados a tu dependencia. Revísalos y repórtalos antes de que se acaben los días de revisión.</p>
+  <figure><img src="img/inv-d01-lista.webp" width="600" height="990" loading="lazy" alt="Pantalla anotada: Lista de inventario"></figure>
+  <ol class="legend"><li><strong>Buscar en inventario</strong> Escribe la placa o parte de la descripción del equipo para filtrar la lista. Si nada coincide, aparece «Sin coincidencias».</li><li><strong>Ordenar la lista</strong> Dependencia, Fecha y Estado ordenan la lista. Toca uno para activarlo y otra vez para invertir el orden; solo hay un orden activo a la vez.</li><li><strong>Días de revisión</strong> Indica cuántos días quedan para revisar el inventario. Toca la «x» para ocultar el aviso.</li><li><strong>Total de elementos y valor</strong> Cuenta los elementos de la lista y suma su valor. Cambia si buscas, porque solo suma los que se ven.</li><li><strong>Estado del elemento</strong> Indica en qué va la revisión: «En espera» es pendiente. Otros estados: Sin ubicar, Aprobado, Nuevo, De baja y Fuera de periodo.</li><li><strong>Datos del equipo</strong> Centro (la dependencia), tipo de equipo y fecha de entrega. Sobre la etiqueta de estado, la tarjeta trae el código y la descripción del equipo.</li><li><strong>Seleccionar ubicación</strong> Toca para elegir en una lista dónde está el elemento; la ubicación queda guardada al elegirla. Cuando ya la tiene, aquí se muestra su nombre.</li><li><strong>Ingresar observación</strong> Abre un formulario para reportar el estado real del elemento: ubicación, tipo de observación e información adicional.</li><li><strong>Aprobar</strong> Aprueba el elemento tal como está, al instante y sin pedir confirmación; pasa a Aprobado. No exige elegir ubicación. Solo aparece en los elementos pendientes.</li></ol>
+</article><article class="step" id="inv-d02-filtro-estado">
+  <h3>Ordenar por estado<small>2 de 6</small></h3>
+  <p class="intro">Los chips Dependencia, Fecha y Estado ordenan la lista de elementos. Aquí está activo el de Estado.</p>
+  <figure><img src="img/inv-d02-filtro-estado.webp" width="600" height="990" loading="lazy" alt="Pantalla anotada: Ordenar por estado"></figure>
+  <ol class="legend"><li><strong>Chip Estado activo</strong> La palomita y el fondo azul indican que este orden está activo. Tócalo otra vez para invertirlo: la flecha cambia de sentido. Si no se ve completo, desliza la fila.</li><li><strong>Dependencia y Fecha</strong> Dependencia ordena por el nombre de la dependencia y Fecha, por la fecha de entrega. Solo uno puede estar activo a la vez.</li><li><strong>Orden de los estados</strong> Este orden sigue la secuencia En espera, Sin ubicar, Aprobado, Nuevo, De baja y Fuera de periodo. Al invertirlo, va al revés.</li></ol>
+</article><article class="step" id="inv-d02-ubicacion">
+  <h3>Elegir la ubicación<small>3 de 6</small></h3>
+  <p class="intro">Se abre al tocar «Seleccionar ubicación» en la tarjeta de un elemento. Elige el lugar donde está el equipo.</p>
+  <figure><img src="img/inv-d02-ubicacion.webp" width="600" height="990" loading="lazy" alt="Pantalla anotada: Elegir la ubicación"></figure>
+  <ol class="legend"><li><strong>Ubicación del elemento</strong> Aquí eliges dónde está el equipo. Para salir sin elegir, toca fuera de la hoja.</li><li><strong>Buscar ubicación</strong> Escribe parte del nombre del edificio, laboratorio o salón para acortar la lista, sin importar mayúsculas ni tildes. Si nada coincide, verás «No se encontraron ubicaciones».</li><li><strong>Lugar de la lista</strong> Cada fila es un lugar. Toca el que corresponda: queda guardado como ubicación del elemento y la hoja se cierra. Desliza para ver más lugares.</li></ol>
+</article><article class="step" id="inv-d03-ubicacion-elegida">
+  <h3>Ubicación asignada<small>4 de 6</small></h3>
+  <p class="intro">Al elegir un lugar, la hoja se cierra y la tarjeta muestra la ubicación que quedó guardada.</p>
+  <figure><img src="img/inv-d03-ubicacion-elegida.webp" width="600" height="990" loading="lazy" alt="Pantalla anotada: Ubicación asignada"></figure>
+  <ol class="legend"><li><strong>Código y descripción</strong> Primero va el código (placa) y la descripción del equipo; debajo, la dependencia a la que está asignado.</li><li><strong>Estado En espera</strong> Sigue «En espera»: elegir la ubicación no aprueba el elemento. Para aprobarlo, desliza hasta los botones del final de la tarjeta.</li><li><strong>Centro, tipo y entrega</strong> La dependencia, el tipo de equipo y la fecha en que se entregó.</li><li><strong>Ubicación guardada</strong> Muestra el lugar que elegiste. Quedó guardado al seleccionarlo y el botón «Seleccionar ubicación» ya no aparece.</li></ol>
+</article><article class="step" id="inv-d04-observacion">
+  <h3>Ingresar observación<small>5 de 6</small></h3>
+  <p class="intro">Se abre con «Ingresar observación» en la tarjeta de un elemento. Reporta su ubicación y su estado real.</p>
+  <figure><img src="img/inv-d04-observacion.webp" width="600" height="990" loading="lazy" alt="Pantalla anotada: Ingresar observación"></figure>
+  <ol class="legend"><li><strong>Elemento que reportas</strong> El equipo que estás reportando: código, descripción, dependencia, tipo y fecha de entrega. Revísalo antes de guardar.</li><li><strong>Seleccionar ubicación</strong> Toca el campo, escribe para buscar el lugar y elige uno de la lista. Necesitas una ubicación para poder guardar. Si el elemento ya tenía una, aparece aquí.</li><li><strong>Tipo de observación</strong> Obligatorio (*). Toca para abrir la lista y elegir cómo está el elemento: Todo correcto, Descripción incorrecta, Bien en desuso, Bien en mal estado o Bien faltante.</li><li><strong>Información adicional</strong> Opcional. Escribe aquí cualquier detalle que quieras dejar anotado sobre el elemento.</li><li><strong>Guardar observación</strong> Se activa al elegir ubicación y tipo; aquí está gris porque falta la ubicación. Al tocarlo se guarda, aparece «Observación guardada», el elemento pasa a Aprobado y vuelves a la lista.</li></ol>
+</article><article class="step" id="inv-d05-tipo-observacion">
+  <h3>Tipos de observación<small>6 de 6</small></h3>
+  <p class="intro">Al tocar el campo «Tipo de observación» se despliega la lista de opciones; elige la que describe el elemento.</p>
+  <figure><img src="img/inv-d05-tipo-observacion.webp" width="600" height="990" loading="lazy" alt="Pantalla anotada: Tipos de observación"></figure>
+  <ol class="legend"><li><strong>Tipo de observación</strong> Muestra el tipo elegido; con la lista abierta, la flecha apunta hacia arriba. Tócalo otra vez para cerrarla sin cambiar nada.</li><li><strong>Lista de opciones</strong> Todo correcto, Descripción incorrecta, Bien en desuso, Bien en mal estado o Bien faltante. Desliza la lista para ver todas; al tocar una queda elegida y la lista se cierra.</li><li><strong>Guardar observación</strong> Sigue gris mientras falte la ubicación o el tipo de observación, que es obligatorio.</li></ol>
+</article>
+<nav class="pager"><a href="08-memorandos.html">‹ Memorandos</a><a href="10-horario.html">Horario ›</a></nav></main>
+</body>
+</html>
